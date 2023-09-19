@@ -4,8 +4,7 @@ export default  function Nav(){
     return (
       <header className={style.header}>
         <nav className={style.nav}>
-          <h1 className={style.nome}  > Julivan Soares</h1>
-          <h1  className="animate__animated  animate__pulse" style={{color:'red'}}> Julivan Soares</h1>
+          <h1 className={`${style.nome} animate__animated  animate__pulse` }  > Julivan Soares</h1>
           <ul>
             <li className="animate__animated  animate__pulse">
               <a href="#home" >Home</a>
@@ -23,7 +22,7 @@ export default  function Nav(){
             <li>
               <a href="#contact">Contato</a>
             </li>
-          </ul>
+          </ul> 
         </nav>
         
 
