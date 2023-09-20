@@ -1,5 +1,7 @@
 import style from "./style.module.scss"
 import 'animate.css';
+import {AiOutlineMenu} from 'react-icons/ai';
+
 export default  function Nav(){
     return (
       <header className={style.header}>
@@ -23,6 +25,9 @@ export default  function Nav(){
               <a href="#contact">Contato</a>
             </li>
           </ul> 
+          <span>
+           <AiOutlineMenu/>
+           </span>
         </nav>
         
 

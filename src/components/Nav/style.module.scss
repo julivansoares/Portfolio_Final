@@ -1,8 +1,10 @@
-//// Cores//////
+
+//// Paleta de Cores//////
 $nome-menu:#00EEFF;
 
+
 .header{
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(14, 13, 13);
     position: fixed;
     z-index: 2;
     top:0;
@@ -11,6 +13,7 @@ $nome-menu:#00EEFF;
     height:60px;
     margin-bottom:90px;
     border-radius: 3px;
+    border-radius:5px;
    
  
 
@@ -41,8 +44,8 @@ $nome-menu:#00EEFF;
     align-items:center;
     justify-content: space-between;
     list-style: none; 
-    width: 330px;
-    margin-right: 45px ;      
+    width: 370px;
+    margin-right: 45px;  
     }
     .nav li a{
         color: $nome-menu;
@@ -51,18 +54,59 @@ $nome-menu:#00EEFF;
         font-family: 'Quicksand', sans-serif;
         font-size: 17px;
         position: relative;
-        margin-bottom: 30px;
+        
     }
     
     .nav a::after{
         content: " ";
-        width:100%;
+        width:0%;
         height:3px;
         background-color: #00EEFF;
         position:absolute;
         bottom: 0;
         left:0;
-        
+        transition: 0.7s ease-in-out;
+    }
+    
+    .nav a:hover::after{
+        width:100%;
+       
+    }
+    .nav span{
+     display: none;
+    }
+  
+    
+
+  @media  (max-width:740px) {
+
+  
+    .nav ul{
+        display: none;
+
     }
 
+    .nav span{
+        display: flex;
+        color: #00EEFF;
+        font-size: 25px;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+
+
+ }
+
+
+
+
+
+
+
+  
+
 }
+
+
+
+
