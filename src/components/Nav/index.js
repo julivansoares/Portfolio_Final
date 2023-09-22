@@ -1,12 +1,27 @@
+"use client";
 import style from "./style.module.scss"
 import 'animate.css';
+import { useState } from "react";
+
 import {AiOutlineMenu} from 'react-icons/ai';
 
+
+
 export default  function Nav(){
+   const [menumobile, setmenuMobile] = useState(false);
+    const menu = ()=>{
+      setmenuMobile(! menumobile)
+      console.log(menumobile)
+    
+    }
+    
     return (
       <header className={style.header}>
         <nav className={style.nav}>
           <h1 className={`${style.nome} animate__animated  animate__pulse` }  > Julivan Soares</h1>
+          <span onClick={menu}>
+           <AiOutlineMenu/>
+           </span>
           <ul>
             <li className="animate__animated  animate__pulse">
               <a href="#home" >Home</a>
@@ -25,13 +40,9 @@ export default  function Nav(){
               <a href="#contact">Contato</a>
             </li>
           </ul> 
-          <span>
-           <AiOutlineMenu/>
-           </span>
+          
         </nav>
         
-
-      
       </header>
 
       

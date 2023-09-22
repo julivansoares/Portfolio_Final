@@ -1,7 +1,8 @@
-
+// @react/server
 import Nav from '@/components/Nav'
 import Home from '@/components/Home'
 import style from './style.module.scss'
+
 
 
 export default function Page() {
