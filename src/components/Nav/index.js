@@ -8,24 +8,20 @@ import {AiOutlineMenu} from 'react-icons/ai';
 
 
 export default  function Nav(){
-   const [menumobile, setmenuMobile] = useState(false);
-    const menu = ()=>{
-      setmenuMobile(! menumobile)
-      console.log(menumobile)
-    
-    }
+   const [menumobile, setmenuMobile] = useState(true);
+
     
     return (
       <header className={style.header}>
         <nav className={style.nav}>
           <h1 className={`${style.nome} animate__animated  animate__pulse` }  > Julivan Soares</h1>
-          <span onClick={menu}>
-           <AiOutlineMenu/>
+          <span onClick={()=>setmenuMobile(!menumobile)}>
+          {menumobile ?  <h1>x</h1>: <AiOutlineMenu />}
            </span>
-          <ul>
+          <ul className={`${menumobile ? style.open : style.close} animate__animated  animate__bounceInDown`}>
             <li className="animate__animated  animate__pulse">
               <a href="#home" >Home</a>
-          
+        
             </li>
             <li>
               <a href="#about">Sobre</a>

@@ -39,7 +39,7 @@ $nome-menu:#00EEFF;
 
 
 
-   .nav ul{
+    ul{
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -47,7 +47,7 @@ $nome-menu:#00EEFF;
     width: 370px;
     margin-right: 45px;  
     }
-    .nav li a{
+    li a{
         color: $nome-menu;
         text-decoration: none;
         opacity: 50;
@@ -57,7 +57,7 @@ $nome-menu:#00EEFF;
         
     }
     
-    .nav a::after{
+     a::after{
         content: " ";
         width:0%;
         height:3px;
@@ -68,7 +68,7 @@ $nome-menu:#00EEFF;
         transition: 0.7s ease-in-out;
     }
     
-    .nav a:hover::after{
+    a:hover::after{
         width:100%;
        
     }
@@ -80,20 +80,33 @@ $nome-menu:#00EEFF;
 
   @media  (max-width:740px) {
 
-  
-    .nav ul{
+    .open {
         display: none;
-
+    }
+    
+    .close{
+        display: none;
     }
 
     .nav span{
         display: flex;
         color: #00EEFF;
         font-size: 25px;
-        cursor: pointer;
-        margin-right: 15px;
+        cursor: pointer;      
+        margin-right:30px;  
     }
-
+    
+   .open{
+       position: fixed;
+       margin-top: 185px;
+       display:flex;
+       flex-direction: column;
+       align-items:center;
+       justify-content:center;
+       width: 15%;
+       margin-left: 530px;
+       background:linear-gradient(#141414, #2d2d2e21);
+    }
 
  }
 
