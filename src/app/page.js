@@ -15,47 +15,7 @@ export default function Page() {
       </video>       
     
       <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
-      <Home/>
+ 
 
     </>
   )

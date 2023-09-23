@@ -8,7 +8,7 @@ import {AiOutlineMenu} from 'react-icons/ai';
 
 
 export default  function Nav(){
-   const [menumobile, setmenuMobile] = useState(true);
+   const [menumobile, setmenuMobile] = useState(false);
 
     
     return (
