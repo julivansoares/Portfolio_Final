@@ -18,7 +18,7 @@ export default function Home(){
        <div className={style.redes}>
          <div className={style.subRedes}>
            <a href="https://github.com/julivansoares" target="_blank">
-             <BsGithub alt="gjgjg"/>
+             <BsGithub alt="gjgjng"/>
            </a>
  
            <a href="https://www.linkedin.com/in/julivan-soares/" target="_blank">
