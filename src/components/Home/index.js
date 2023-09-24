@@ -1,5 +1,5 @@
 import style from "./style.module.scss"
-import { BsGithub } from 'react-icons/bs' ; 
+import { BsGithub, BsLinkedin } from 'react-icons/bs' ; 
 export default function Home(){
 
     return(
@@ -18,14 +18,14 @@ export default function Home(){
        <div className={style.redes}>
          <div className={style.subRedes}>
            <a href="https://github.com/julivansoares" target="_blank">
-             <BsGithub alt="gjgjng"/>
+             <BsGithub alt="gjgjng" className={style.van}/>
            </a>
  
            <a href="https://www.linkedin.com/in/julivan-soares/" target="_blank">
-             <img src="./img/linkedin.png" alt="icone-Linkedin" />
+             <BsLinkedin alt="icone-Linkedin"/>
            </a>
          </div>
-         <a href="/Curriculum/JULIVAN_SOARES.pdf" download class="download-cv">Download CV</a>
+         <a href="/Curriculum/JULIVAN_SOARES.pdf" download className={style.download}>Download CV</a>
        </div>
  
  
