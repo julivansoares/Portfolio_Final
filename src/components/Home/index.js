@@ -1,5 +1,6 @@
 import style from "./style.module.scss"
 import { BsGithub, BsLinkedin } from 'react-icons/bs' ; 
+import Link from "next/link";
 export default function Home(){
 
     return(
@@ -25,7 +26,9 @@ export default function Home(){
              <BsLinkedin alt="icone-Linkedin"/>
            </a>
          </div>
-         <a href="/Curriculum/JULIVAN_SOARES.pdf" download className={style.download}>Download CV</a>
+          <Link href="../public/JULIVAN_SOARES.pdf" target="_blank" className={style.download}>
+             Download CV
+          </Link>
        </div>
  
  
