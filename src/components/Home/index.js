@@ -1,6 +1,9 @@
 import style from "./style.module.scss"
 import { BsGithub, BsLinkedin } from 'react-icons/bs' ; 
 import Link from "next/link";
+import Image from "next/image";
+import van from "../../../public/img/julivan_soares.png"
+
 export default function Home(){
 
     return(
@@ -33,8 +36,8 @@ export default function Home(){
  
  
      </div>
-     <div class="foto-pefil">
-       <img src="./img/Julivan_soares.png"  alt="foto-pefil" />
+     <div className={style.fotoPefil}>
+       <Image src={van}/>
      </div>
    </section>
        
@@ -43,5 +46,7 @@ export default function Home(){
 
 
 
-    )
+  )
+  
+  
 }
