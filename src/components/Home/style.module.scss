@@ -1,17 +1,19 @@
 ///PALETA DE CORES/////
 
 $cor-principal:#00EEFF;
-$cor-fundo:linear-gradient(#141414, #2d2d2e21);
+$cor-fundo:linear-gradient(#111111, #18181a21);
 
 .home{
    position: fixed;
    display: flex;
    align-items: center;
-   margin-top: 60px;
-   border: 1px solid rgb(255, 0, 0);
-   width: 100%;
+   top: 5%;
+   //border: 1px solid rgb(0, 255, 98);
+   width: 90%;
+   left: 5%;
    height: 74%;
    background:$cor-fundo;
+   border-radius: 20px;
 
    .subHome{
      margin-top: 100px;
@@ -63,7 +65,7 @@ $cor-fundo:linear-gradient(#141414, #2d2d2e21);
     }
     
     .redes{
-        
+        position: absolute;
         height: 110%;
         width: 50%;
         display: flex;
@@ -71,7 +73,7 @@ $cor-fundo:linear-gradient(#141414, #2d2d2e21);
         flex-direction: column;
         align-items: center;
         margin-left: 40px;
-        margin-top: 320px;
+        margin-top: 400px;
         position: fixed;
         border: 1px solid red;
         height: 110px;
@@ -117,8 +119,53 @@ $cor-fundo:linear-gradient(#141414, #2d2d2e21);
     }
 
     .fotoPefil{
-        border: 1px solid red;
-        margin-left:500px;
+        position: absolute;
+        top: 12%;
+        left: 60%;
+        transform: translate(-5%, -5%);
+        
+
+        img{
+            max-width: 65%;
+            border: 1px solid;
+            margin-left: 150px;
+            margin-top: 45px;
+            border-radius: 950px;
+            transform: scale(2);
+            animation: flutuacao 15s ease-in-out infinite;
+            box-shadow: 0px 0px 5px 5px  #00EEFF;
+            transition: 3s;
+        }
+
+        img:hover {
+            max-width: 100%;
+            border: 1px solid;
+            margin-left: 150px;
+            margin-top: 45px;
+            border-radius: 850px;
+            transform: scale(2);
+            animation: flutuacao 10s ease-in-out infinite;
+            box-shadow: 0px 0px 5px 2px  #1500ff;
+            transition: 8s;
+           
+        }
+
+
+
+
+
+
+        /* foto-perfil-animação */
+        @keyframes flutuacao{
+            0%,100%{
+                transform: translateY(0px);
+            }
+
+            50%{
+            transform: translateY(-50px);
+             }
+        }
+
         
     }
 

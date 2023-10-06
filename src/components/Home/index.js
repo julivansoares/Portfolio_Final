@@ -37,7 +37,7 @@ export default function Home(){
  
      </div>
      <div className={style.fotoPefil}>
-       <Image src={van}/>
+       <Image className={style.img} src={van} />
      </div>
    </section>
        
