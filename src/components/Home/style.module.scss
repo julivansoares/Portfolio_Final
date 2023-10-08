@@ -7,8 +7,8 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
    position: fixed;
    display: flex;
    align-items: center;
-   top: 5%;
-   //border: 1px solid rgb(0, 255, 98);
+   top: 6%;
+   border: 1px solid rgb(0, 255, 98);
    width: 90%;
    left: 5%;
    height: 74%;
@@ -123,14 +123,15 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
         top: 12%;
         left: 60%;
         transform: translate(-5%, -5%);
-        
+    
 
         img{
-            max-width: 65%;
+            
+            max-width: 67%;
             border: 1px solid;
-            margin-left: 150px;
-            margin-top: 45px;
-            border-radius: 950px;
+            margin-left: 4px;
+            margin-top: -40px;
+            border-radius: 900px;
             transform: scale(2);
             animation: flutuacao 15s ease-in-out infinite;
             box-shadow: 0px 0px 5px 5px  #00EEFF;
@@ -138,22 +139,17 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
         }
 
         img:hover {
-            max-width: 100%;
+            max-width: 65%;
             border: 1px solid;
-            margin-left: 150px;
-            margin-top: 45px;
+            margin-left: 80px;
+            margin-top: -65px;
             border-radius: 850px;
-            transform: scale(2);
-            animation: flutuacao 10s ease-in-out infinite;
+            transform: scale(1);
+            animation: flutuacao 7s ease-in-out infinite;
             box-shadow: 0px 0px 5px 2px  #1500ff;
             transition: 8s;
            
         }
-
-
-
-
-
 
         /* foto-perfil-animação */
         @keyframes flutuacao{
@@ -162,13 +158,117 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
             }
 
             50%{
-            transform: translateY(-50px);
+            transform: translateY(-20px);
              }
         }
 
         
     }
 
-  
+   // Responsividade////
+
+   @media(max-width:1411px){
+        .subHome{
+            display: table-cell;
+            border: 1px solid rgb(76, 0, 255);
+            margin-left: 60px;
+            margin-top:170px;
+
+            p{
+                font-size: 20px;
+            }
+            .redes{
+                margin-top: 90px;
+            }
+    
+        }
+
+        
+        .fotoPefil{
+            object-fit: cover;
+            position:fixed;
+            border: 1px solid red;
+            width: 300px;
+            height: 390px;
+            border-radius: 860px;
+            margin-bottom: -675px;
+            margin-left:160px;
+        }
+
+        
+        img{
+            
+            max-width: 67%;
+            border: 1px solid;
+            margin-left: 4px;
+            height: 300px;
+            margin-top: 6330px;
+            border-radius: 800px;
+            transform: scale(2);
+            animation: flutuacao 15s ease-in-out infinite;
+            box-shadow: 0px 0px 5px 5px  #00EEFF;
+            transition: 3s;
+        }
+
+        
+        /* foto-perfil-animação */
+        @keyframes flutuacao{
+            0%,100%{
+                transform: translateY(0px);
+            }
+
+            50%{
+            transform: translateY(-40px);
+             }
+        }
+    }
+
+    @media(max-width:936px){
+        
+        .subHome{
+            width: 570px;
+            border: 1px solid rgb(166, 255, 0);
+            margin-left: 23px;
+            margin-top: 250px;
+            
+            p{
+                font-size: 16px;
+    
+            }
+            h2{
+                font-size: 16px;
+
+            }
+
+            .digitando{
+                font-size: 20px;
+            }
+
+            .redes{
+                margin-top: 250px;
+            }
+
+        }
+        
+
+    }
+       
+    
+
+    @media(max-width:620px){
+        .subHome{  
+            display: table-cell;
+            width: 535px;
+            border: 1px solid red;
+            
+            p{
+                display: table-cell;
+                font-size: 13px;
+                border: 1px solid red;
+                width: 430px;
+            }
+        
+        }
+
+    }
 }
-  
