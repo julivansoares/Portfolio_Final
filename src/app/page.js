@@ -2,6 +2,7 @@
 import Nav from '@/components/Nav'
 import Home from '@/components/Home'
 import style from './style.module.scss'
+import AboutMe from '@/components/AboutMe'
 
 
 
@@ -15,7 +16,15 @@ export default function Page() {
       </video>       
     
       <Home/>
- 
+
+      <AboutMe/>
+      
+      <AboutMe/>
+      
+      <AboutMe/>
+
+      
+      <AboutMe/>
 
     </>
   )

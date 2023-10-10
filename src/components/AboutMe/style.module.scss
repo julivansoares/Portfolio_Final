@@ -1,0 +1,15 @@
+
+$cor-fundo:linear-gradient(#111111, #18181a21);
+
+.main{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 90%;
+    width: 90%;
+    left: 5%;
+    height: 615px;
+    background:$cor-fundo;
+    border-radius: 20px;
+    border: 1px solid red;
+}
