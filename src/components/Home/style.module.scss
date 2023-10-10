@@ -75,7 +75,6 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
         margin-left: 40px;
         margin-top: 400px;
         position: fixed;
-        border: 1px solid red;
         height: 110px;
         width:300px;
         .subRedes{
@@ -170,15 +169,16 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
    @media(max-width:1411px){
         .subHome{
             display: table-cell;
-            border: 1px solid rgb(76, 0, 255);
             margin-left: 60px;
             margin-top:170px;
 
             p{
+                margin-top: 15px;
                 font-size: 20px;
             }
             .redes{
                 margin-top: 90px;
+                margin-left: 110px;
             }
     
         }
@@ -187,56 +187,61 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
         .fotoPefil{
             object-fit: cover;
             position:fixed;
-            border: 1px solid red;
-            width: 300px;
+            width: 280px;
             height: 390px;
             border-radius: 860px;
-            margin-bottom: -675px;
-            margin-left:160px;
-        }
-
+            margin-bottom: -275px;
+            margin-left:80px;
+                    
         
-        img{
+            img{
             
-            max-width: 67%;
+            max-width: 70%;
             border: 1px solid;
-            margin-left: 4px;
+            margin-left: 40px;
             height: 300px;
-            margin-top: 6330px;
+            margin-top: -15px;
             border-radius: 800px;
             transform: scale(2);
             animation: flutuacao 15s ease-in-out infinite;
-            box-shadow: 0px 0px 5px 5px  #00EEFF;
+            box-shadow: 0px 0px 5px 5px  #10ffff;
             transition: 3s;
-        }
+            }
 
         
-        /* foto-perfil-animação */
-        @keyframes flutuacao{
+            /* foto-perfil-animação */
+            @keyframes flutuacao{
             0%,100%{
-                transform: translateY(0px);
+                transform: translateY(30px);
             }
 
             50%{
-            transform: translateY(-40px);
+            transform: translateY(100px);
              }
+            }
+            
         }
+
     }
 
     @media(max-width:936px){
         
         .subHome{
+            display: table-cell;
             width: 570px;
-            border: 1px solid rgb(166, 255, 0);
-            margin-left: 23px;
+            height: 155px;
+            margin-left: 65px;
             margin-top: 250px;
             
+            
             p{
+                display: table-cell;
                 font-size: 16px;
-    
             }
+
             h2{
-                font-size: 16px;
+               margin-bottom: 10px;
+                font-size: 20px;
 
             }
 
@@ -245,29 +250,154 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
             }
 
             .redes{
-                margin-top: 250px;
+                display: block;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+                margin-top: 80px;
+                margin-left:170px;
+
+                .subRedes{
+                   margin-left: 35px;
+                    width: 120px;
+                    margin-bottom:20px;
+                }
+                .download{
+                    
+                    margin-left: 30px;
+                }
             }
 
         }
         
+            
+        .fotoPefil{
+            object-fit: cover;
+            position:fixed;
+            width: 250px;
+            height: 225px;
+            border-radius: 860px;
+            margin-top: -20px;
+            margin-bottom: 105px;
+            margin-left:-215px;
+            align-self: center;                    
+        
+            img{
+            max-width: 80%;
+            border: 1px solid;
+            margin-left: 40px;
+            height: 190px;
+            margin-top: -40px;
+            border-radius: 800px;
+            transform: scale(2);
+            animation: flutuacao 15s ease-in-out infinite;
+            box-shadow: 0px 0px 5px 5px  #10ffff;
+            transition: 3s;
+            }
+
+        
+            /* foto-perfil-animação */
+            @keyframes flutuacao{
+            0%,100%{
+                transform: translateY(30px);
+            }
+
+            50%{
+            transform: translateY(70px);
+             }
+            }
+            
+        }
+
+
 
     }
        
     
 
     @media(max-width:620px){
-        .subHome{  
+        .subHome{
             display: table-cell;
-            width: 535px;
+            width: 570px;
+            height: 155px;
             border: 1px solid red;
+            margin-left: 65px;
+            margin-top: 250px;
+            
             
             p{
                 display: table-cell;
-                font-size: 13px;
-                border: 1px solid red;
-                width: 430px;
+                font-size: 16px;
             }
+
+            h2{
+               margin-bottom: 10px;
+                font-size: 20px;
+
+            }
+
+            .digitando{
+                font-size: 20px;
+            }
+
+            .redes{
+                display: block;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+                margin-top: 80px;
+                margin-left:170px;
+
+                .subRedes{
+                   margin-left: 35px;
+                    width: 120px;
+                    margin-bottom:20px;
+                }
+                .download{
+                    
+                    margin-left: 30px;
+                }
+            }
+
+        }
         
+            
+        .fotoPefil{
+            object-fit: cover;
+            position:fixed;
+            width: 250px;
+            height: 225px;
+            border-radius: 860px;
+            margin-top: -20px;
+            margin-bottom: 105px;
+            margin-left:-215px;
+            align-self: center;                    
+        
+            img{
+            max-width: 80%;
+            border: 1px solid;
+            margin-left: 40px;
+            height: 190px;
+            margin-top: -40px;
+            border-radius: 800px;
+            transform: scale(2);
+            animation: flutuacao 15s ease-in-out infinite;
+            box-shadow: 0px 0px 5px 5px  #10ffff;
+            transition: 3s;
+            }
+
+        
+            /* foto-perfil-animação */
+            @keyframes flutuacao{
+            0%,100%{
+                transform: translateY(30px);
+            }
+
+            50%{
+            transform: translateY(70px);
+             }
+            }
+            
         }
 
     }
