@@ -4,10 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import van from "../../../public/img/julivan_soares.png"
 
+
 export default function Home(){
 
     return(
-        
+            
     <section className={style.home}>
        
        <div className={style.subHome}>
@@ -42,7 +43,7 @@ export default function Home(){
    </section>
        
 
-
+   
 
 
 

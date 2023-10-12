@@ -4,7 +4,7 @@ $cor-principal:#00EEFF;
 $cor-fundo:linear-gradient(#111111, #18181a21);
 
 .home{
-   position: fixed;
+   
    display: flex;
    align-items: center;
    top: 6%;
@@ -64,7 +64,7 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
     }
     
     .redes{
-        position: absolute;
+        
         height: 110%;
         width: 50%;
         display: flex;
@@ -117,7 +117,7 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
     }
 
     .fotoPefil{
-        position: absolute;
+        
         top: 12%;
         left: 60%;
         transform: translate(-5%, -5%);

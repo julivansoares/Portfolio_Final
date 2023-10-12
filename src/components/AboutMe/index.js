@@ -13,8 +13,6 @@ export default function AboutMe(){
          <h1>julivan santos</h1>
          
          <h1>julivan santos</h1>
-         
-        
         
         </main>
   
