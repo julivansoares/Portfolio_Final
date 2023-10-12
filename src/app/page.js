@@ -21,6 +21,12 @@ export default function Page() {
       <Home/>
       
       <AboutMe/>
+       
+      <AboutMe/>
+       
+      <AboutMe/>
+       
+      <AboutMe/>
       
 
     </>

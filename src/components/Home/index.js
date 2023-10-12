@@ -22,7 +22,7 @@ export default function Home(){
  
        <div className={style.redes}>
          <div className={style.subRedes}>
-           <a href="https://github.com/julivansoares" target="_blank">
+           <a className={style.black} href="https://github.com/julivansoares" target="_blank">
              <BsGithub alt="gjgjng" className={style.van}/>
            </a>
  

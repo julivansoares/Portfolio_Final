@@ -64,7 +64,7 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
     }
     
     .redes{
-        
+        background-color: red;
         height: 110%;
         width: 50%;
         display: flex;
@@ -73,7 +73,6 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
         align-items: center;
         margin-left: 40px;
         margin-top: 400px;
-        position: fixed;
         height: 110px;
         width:300px;
         .subRedes{
@@ -87,7 +86,10 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
             a{
                 font-size: 30px;
                 color: #00EEFF;
- 
+                
+                &.black{
+                    color: #111111;
+                }
             }
          
         }
