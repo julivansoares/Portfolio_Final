@@ -566,15 +566,15 @@ $cor-fundo:linear-gradient(#111111, #18181a21);
     
         
     .fotoPefil{
+        display: flex;
+        justify-content: center;
         object-fit: cover;
-        position:fixed;
-        width: 140px;
-        height: 140px;
-        border-radius: 860px;
-        margin-top: -200px;
-        margin-bottom: 105px;
-        margin-left:90px;
-        align-self: center;                    
+        width: 150px;
+        height: 150px;
+        border-radius: 460px;
+        margin-bottom: 300px;
+        margin-left:-410px;                     
+        margin-top:-10px;                
     
         img{
         max-width: 80%;
