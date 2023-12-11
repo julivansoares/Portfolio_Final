@@ -24,11 +24,6 @@ export default function Page() {
        
       <AboutMe/>
        
-      <AboutMe/>
-       
-      <AboutMe/>
-      
-
     </>
     
     

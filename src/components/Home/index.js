@@ -2,7 +2,7 @@ import style from "./style.module.scss"
 import { BsGithub, BsLinkedin } from 'react-icons/bs' ; 
 import Link from "next/link";
 import Image from "next/image";
-import van from "../../../public/img/julivan_soares.png"
+import julivan from "../../../public/img/julivan_soares.png"
 
 
 export default function Home(){
@@ -38,7 +38,7 @@ export default function Home(){
  
      </div>
      <div className={style.fotoPefil}>
-       <Image className={style.img} src={van} />
+       <Image className={style.img} src={julivan} />
      </div>
    </section>
        
