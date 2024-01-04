@@ -5,8 +5,8 @@ import Image from 'next/image'
 export default function AboutMe() {
 
     return (
-        <main className={style.main}>
-            <article className={style.sobre}>
+        <main className={style.puta}>
+            <article aria-label="seção sobre min" className={style.sobre}>
                 <div className={style.titulo}>
                     <h1>Sobre Mim</h1>
                     <p>Perfil Profissional - Tudo sobre mim</p>
@@ -17,8 +17,8 @@ export default function AboutMe() {
                         <span></span>
                     </div>
                 </div>
-                <div className={style.foto_pefil}>
-                    <Image src={julivan} alt="foto-pefil" />
+                <div className={style.fotoPefil}>
+                    <Image className={style.img}  src={julivan} alt="foto-pefil" />
                 </div>
                 <div className={style.conteudo}>
                     <div className={style.texto}>
@@ -30,6 +30,14 @@ export default function AboutMe() {
                             Agradeço pela oportunidade de apresentar meu portfólio e estou ansioso para discutir como posso contribuir para o sucesso de novos projetos e iniciativas. Vamos juntos construir soluções inovadoras e impactantes no mundo da tecnologia!
                         </p>
 
+                    </div>
+
+                    <div class="sobre_info">
+                        <p><i class="fa-solid fa-calendar-days"></i>Data de nascimento: 07 de maio de 1993</p>
+                        <p><i class="fa-sharp fa-solid fa-laptop-code"></i>Autônomo: Disponível</p>
+                        <p><i class="fa-solid fa-location-dot"></i>Endereço: Bahia, Brasil</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>Telefone: +55 71-994052920</p>
+                        <p><i class="fa-solid fa-envelope"></i>E-mail: julivan.soares@outlook.com</p>
                     </div>
 
                 </div>
