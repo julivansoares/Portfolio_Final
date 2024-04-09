@@ -9,15 +9,15 @@ import Html5 from "../../../public/img/html5.png"
 import Postgresql from "../../../public/img/postgres.png"
 import Mysql from "../../../public/img/Mysql.png"
 import Sqlserver from "../../../public/img/sql-server.png"
-//import Linux from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-import Github from   "../../../public/img/github1.png"
+import Linux from "../../../public/img/linux.png"
+import Github from "../../../public/img/github1.png"
 
 
 export default function Skills() {
 
     return (
 
-        <main className={style.sevicos}>
+        <main className={style.servicos}>
             <div className={style.titulo_secundario}>
                 <h1>Tecnologias</h1>
                 <p>Perfil Profissional - Tudo sobre mim</p>
@@ -80,11 +80,7 @@ export default function Skills() {
                             <h3>Sqlserver</h3>
                     </li>
 
-                    <li>
-                        <Image src={Linux} />
-                        
-                        <h3>Linux</h3>
-                    </li>
+                    <li> <Image src={Linux} /> <h3>Linux</h3></li>
 
                     <li>
 
