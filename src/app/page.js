@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import style from './style.module.scss'
 import AboutMe from '@/components/AboutMe'
 import Skills from '@/components/skills'
+import Summary from '@/components/Summary'
 
 
 
@@ -24,6 +25,8 @@ export default function Page() {
       <AboutMe/>
        
       <Skills/>
+
+      <Summary/>
        
     </>
     

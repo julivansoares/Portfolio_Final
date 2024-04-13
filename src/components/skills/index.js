@@ -6,6 +6,7 @@ import Python from "../../../public/img/python.png"
 import NodeJS from "../../../public/img/nodejs.png"
 import React from "../../../public/img/react.png"
 import Html5 from "../../../public/img/html5.png"
+import Css3 from "../../../public/img/css3.png"
 import Postgresql from "../../../public/img/postgres.png"
 import Mysql from "../../../public/img/Mysql.png"
 import Sqlserver from "../../../public/img/sql-server.png"
@@ -59,7 +60,7 @@ export default function Skills() {
                             <h3>Html5</h3>
                     </li>
                     <li>
-                        <Image src={Html5} />
+                        <Image src={Css3} />
                             <h3>Css3</h3>
                     </li>
 

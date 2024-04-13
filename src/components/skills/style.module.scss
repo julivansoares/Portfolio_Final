@@ -1,36 +1,42 @@
+$cor-fundo: linear-gradient(#0a0a0a, hsla(0, 5%, 15%, 0.129));
+
 
 /* SEÇÃO TECNOLOGIAS */
 
+.servicos{
+    background: $cor-fundo;
+}
 
-.sevicos .titulo_secundario {
+
+.titulo_secundario {
     margin: 30px 0;
     grid-column: 1/-1;
     text-align: center;
     color: aliceblue;
 }
 
-.sevicos .titulo_secundario h1 {
+.titulo_secundario h1 {
     font-size: 2.5rem;
     color: #00EEFF;
     margin-bottom: 15px;
     font-family: 'Berkshire Swash', cursive;
 }
 
-.sevicos .titulo-secundario p {
-    color: #707070;
+.titulo_secundario p {
+    color: #535353;
     font-size: 1.4rem;
     margin-bottom: 1rem;
     position: relative;
 }
 
 
-.sevicos .titulo-secundario div {
+.titulo_secundario div {
     display: flex;
     gap: 10px;
     justify-content: center;
 }
 
-.sevicos .titulo-secundario span {
+.titulo_secundario span {
     display: block;
     height: 20px;
     width: 20px;
@@ -39,19 +45,10 @@
 }
 
 
-
-
-.sevicos {
-
-    margin-top: -30px;
-    padding: 60px;
-    background-color: #151515;
-
-}
-
 .menu_servicos {
     padding: 60px;
-    color: white;
+    color: rgb(194, 38, 38);
+  
 }
 
 .menu_servicos ul {
@@ -60,6 +57,9 @@
     gap: 19px;
     align-items: center;
     justify-content: center;
+    
+    
+    
 }
 
 .menu_servicos ul li {
@@ -69,19 +69,21 @@
     display: grid;
     gap: 30px;
     text-align: center;
-    width: 200px;
+    width: 190px;
     align-content: center;
     height: 150px;
     background-color: #222;
     border-radius: 15px;
 }
 
-.sevicos .menu_servicos ul li img {
-    width: 75px;
-    margin-left: 55px;
+.servicos .menu_servicos ul li img {
+    width: 85px;
+    height: 87.3px;
+    margin-left: 50px;
+
 }
 
-.sevicos .menu_servicos ul li .node {
+.servicos .menu_servicos ul li .node {
     width: 75px;
     margin-left: 49px;
 }
