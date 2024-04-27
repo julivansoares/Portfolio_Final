@@ -10,6 +10,7 @@ import Summary from '@/components/Summary'
 
 
 
+
 export default function Page() {
   return (
     <>
@@ -26,7 +27,7 @@ export default function Page() {
        
       <Skills/>
 
-      <Summary/>
+      <Summary/> 
        
     </>
     
